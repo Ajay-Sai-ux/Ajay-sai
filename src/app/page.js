@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer";
 import styles from "./page.module.css";
 import Image from "next/image";
 import Link from "next/link";
@@ -166,34 +167,7 @@ export default function Home() {
           </div>
         </section>
 
-        <footer className={styles.footerContainer}>
-
-          <div className={styles.profileContainer}>
-              <p className={styles.footerTittle}>© 2025 | Ajay Sai</p>
-              <div className={styles.line}></div>
-              {/* Social Media */}
-              <div className={styles.socialContainer}>
-                <div className={styles.socialIconWrapper}>
-                  {socialLinks.map((social, index) => (
-                    <Link
-                      key={index}
-                      className={styles.socialIconContainer}
-                      href={social.href}
-                    >
-                      <Image
-                        className={styles.socialIcon}
-                        src={social.src}
-                        alt={social.alt}
-                        width={40} // Adjusted for better sizing
-                        height={40}
-                      />
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            </div>
-          
-        </footer>
+        <Footer />
       </main>
     </div>
   );

@@ -1,0 +1,57 @@
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    gap: 2.5rem;
+}
+
+.footerTittle {
+    white-space: nowrap;
+}
+
+.line {
+    width: 100%;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.profileContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between
+}
+
+.socialIconWrapper {
+    display: flex;
+    gap: 16px;
+}
+
+.socialIconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialIcon {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navItem {
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    padding: .75rem 1.5rem;
+}
+
+.navItem:last-child {
+    padding-right: 0;
+}
