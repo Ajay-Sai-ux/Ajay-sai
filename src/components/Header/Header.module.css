@@ -1,0 +1,56 @@
+.header {
+    max-width: 1280px;
+    width: inherit;
+    padding: .75rem 2.5rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: .75rem 2rem .75rem 0;
+}
+
+.logo h1 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navItem {
+    font-weight: 400;
+    color: #b3b3b3;
+    text-decoration: none;
+    padding: .75rem 1.5rem .75rem 1.5rem;
+}
+
+
+.portfolioSection {
+    padding: .75rem 0 .75rem 2rem;
+}
+
+.portfolio {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.navItem {
+    font-weight: 400;
+    color: #B3B3B3;
+    text-decoration: none;
+    padding: .75rem 1.5rem;
+}
+
+.active {
+    color: #000000;
+}
+
