@@ -140,7 +140,7 @@ export default function Home() {
 
         <section className={styles.selectedWorks}>
           <div className={styles.heading}>
-            <h2 className={styles.worksTitle}>Selected Works</h2>
+            <h2 className={styles.worksTitle}>Selected Case studies</h2>
             <div className={styles.line}></div>
           </div>
 
