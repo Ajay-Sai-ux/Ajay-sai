@@ -27,7 +27,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: "Lufga-Regular", Arial, Helvetica, sans-serif;
+  font-family: "Lufga", Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -45,7 +45,6 @@ a {
 
 h1 {
   color: #000;
-  font-family: Lufga;
   font-size: 100px;
   font-style: normal;
   font-weight: 500;
@@ -54,7 +53,6 @@ h1 {
 
 h2 {
   color: #000;
-  font-family: Lufga;
   font-size: 44px;
   font-style: normal;
   font-weight: 500;
@@ -64,7 +62,6 @@ h2 {
 h3 {
   color: #000000;
   text-align: left;
-  font-family: Lufga;
   font-size: 28px;
   line-height: 140%;
   font-weight: 500;
