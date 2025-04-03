@@ -8,7 +8,7 @@ export default function Home() {
     { href: "/works", src: "/images/linkedin.svg", alt: "LinkedIn" },
     { href: "/works", src: "/images/instagram.svg", alt: "Instagram" },
     { href: "/works", src: "/images/mail.svg", alt: "Email" },
-    { href: "/works", src: "/images/X.svg", alt: "X (Twitter)" },
+    { href: "/works", src: "/images/x.svg", alt: "X (Twitter)" },
     { href: "/works", src: "/images/github.svg", alt: "GitHub" },
   ];
 
