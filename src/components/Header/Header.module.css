@@ -32,26 +32,14 @@
 
 .navItem {
     font-weight: 400;
-    color: #b3b3b3;
+    color: #000000;
     text-decoration: none;
     padding: .75rem 1.5rem;
 }
 
 
-.portfolioSection {
-    padding: .75rem 0 .75rem 2rem;
-}
-
-.portfolio {
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.navItem {
-    font-weight: 400;
-    color: #B3B3B3;
-    text-decoration: none;
-    padding: .75rem 1.5rem;
+.navLinks li:last-child a {
+    padding-right: 0;
 }
 
 .active {

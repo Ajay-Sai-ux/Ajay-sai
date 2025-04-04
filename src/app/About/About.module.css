@@ -1,0 +1,41 @@
+.page {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    width: 100%;
+    gap: 4rem;
+    padding-top: 84px;
+
+}
+
+.aboutSection {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 2.5rem;
+}
+
+.introSection {
+    display: flex;
+    gap: 3.75rem;
+    flex-direction: column;
+}
+
+.title {
+    line-height: 120%;
+}
+
+.description {
+    color: #000000;
+    text-align: left;
+    font-family: "Lufga-Regular", sans-serif;
+    font-size: 44px;
+    line-height: 140%;
+    font-weight: 400;
+}

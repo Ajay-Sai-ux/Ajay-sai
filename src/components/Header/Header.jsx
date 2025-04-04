@@ -18,33 +18,46 @@ const Header = () => {
         <ul className={styles.navLinks}>
           <li>
             <Link
-              href="/works"
+              href="/Case_Studies"
               className={`${styles.navItem} ${
-                pathname === "/works" ? styles.active : ""
+                pathname === "/Case_Studies" ? styles.active : ""
               }`}
             >
-              Works
+              Case Studies
             </Link>
           </li>
           <li>
             <Link
-              href="/about"
+              href="/Microinteractions"
               className={`${styles.navItem} ${
-                pathname === "/about" ? styles.active : ""
+                pathname === "/Microinteractions" ? styles.active : ""
               }`}
             >
-              About
+              Microinteractions
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/Motion_graphics"
+              className={`${styles.navItem} ${
+                pathname === "/Motion_graphics" ? styles.active : ""
+              }`}
+            >
+              Motion graphics
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/About"
+              className={`${styles.navItem} ${
+                pathname === "/About" ? styles.active : ""
+              }`}
+            >
+              Who's Ajay?
             </Link>
           </li>
         </ul>
-        <div className={styles.portfolioSection}>
-          <Link
-            href="/portfolio"
-            className={styles.portfolio}
-          >
-            Portfolio
-          </Link>
-        </div>
+
       </nav>
     </header>
   );
