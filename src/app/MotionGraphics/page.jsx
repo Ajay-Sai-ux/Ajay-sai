@@ -1,7 +1,7 @@
 "use client";
 
 import Footer from "@/components/Footer/Footer";
-import styles from "./Motion_graphics.module.css";
+import styles from "./MotionGraphics.module.css";
 import Image from "next/image";
 import Link from "next/link";
 

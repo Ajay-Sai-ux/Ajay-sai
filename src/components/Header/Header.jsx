@@ -18,9 +18,9 @@ const Header = () => {
         <ul className={styles.navLinks}>
           <li>
             <Link
-              href="/Case_Studies"
+              href="/CaseStudies"
               className={`${styles.navItem} ${
-                pathname === "/Case_Studies" ? styles.active : ""
+                pathname === "/CaseStudies" ? styles.active : ""
               }`}
             >
               Case Studies
@@ -38,9 +38,9 @@ const Header = () => {
           </li>
           <li>
             <Link
-              href="/Motion_graphics"
+              href="/MotionGraphics"
               className={`${styles.navItem} ${
-                pathname === "/Motion_graphics" ? styles.active : ""
+                pathname === "/MotionGraphics" ? styles.active : ""
               }`}
             >
               Motion graphics
